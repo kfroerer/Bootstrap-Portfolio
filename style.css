@@ -1,16 +1,23 @@
-
+body {
+    background-image: url(./images/cloth_alike_@2X.png);
+}
 h1 {
     font-size: 24px;
-    padding-left: 3%;
     background-color: rgb(47, 180, 162);
     color: rgb(58, 54, 54);
+    margin: 0;
+    padding: 1.5%;
+}
+.card {
+    margin-top: 5%;
+    margin-bottom: 15%;
 }
 
 .container {
-    margin-top: 3%;
-}
-
-.card {
+    width: 80%;
+    margin: auto;
+    border: 1px gray solid;
+    padding: 5%;
     margin-top: 5%;
-    margin-bottom: 10%;
+    background-color: #ffffff;
 }
