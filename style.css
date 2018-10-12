@@ -1,6 +1,9 @@
 body {
     background-image: url(./images/cloth_alike_@2X.png);
 }
+html, body {
+    height: 100%;
+}
 h1 {
     font-size: 24px;
     background-color: rgb(47, 180, 162);
@@ -20,4 +23,31 @@ h1 {
     padding: 5%;
     margin-top: 5%;
     background-color: #ffffff;
+    margin-bottom: 100px;
 }
+.wrapper:after {
+    content: "";
+    display: block;
+}
+
+.wrapper {
+    min-height: 100%;
+    margin-bottom: -45px;
+}
+
+.navbar {
+    padding: 0.5rem 0rem;
+}
+
+.footer {
+    /* position: absolute; */
+    /* bottom: 0; */
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 45px;
+    line-height: 45px; /* Vertically center the text there */
+    background-color: #f5f5f5;
+    text-align: center;
+  }
+
+  
